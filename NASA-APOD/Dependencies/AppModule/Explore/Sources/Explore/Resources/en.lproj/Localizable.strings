@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Explore
+
+  Created by Manik on 09/10/2025.
+  
+*/
+
+"explore.screen.navigation.title" = "Explore";
+
+"explore.screen.progressive.view.message" = "Loading APOD...";
+
+"explore.screen.fallback.banner.message" = "No APOD available for this date. Showing last available result.";
+
+"explore.screen.datepicker.section.title" = "Choose date";
+"explore.screen.loadAPOD.button.title" = "Load APOD";
+
+"explore.screen.content.section.title" = "Cached APOD";
+"explore.screen.content.section.image.load.failure.message" = "Failed to load image";
+"explore.screen.content.section.unsupported.media.type.error.message" = "Unsupported media type.";
+
+"explore.screen.api.or.connection.failure.error.message" = "No data available for this date. Please try another date or check your connection.";

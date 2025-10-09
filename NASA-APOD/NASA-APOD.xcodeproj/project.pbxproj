@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B08FE9B2E969FFC009DD0CF /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FE9A2E969FFC009DD0CF /* APIClient */; };
+		2B08FE9D2E969FFC009DD0CF /* CoreUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FE9C2E969FFC009DD0CF /* CoreUI */; };
+		2B08FE9F2E969FFC009DD0CF /* CoreUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FE9E2E969FFC009DD0CF /* CoreUtils */; };
+		2B08FEA12E969FFC009DD0CF /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FEA02E969FFC009DD0CF /* Dashboard */; };
+		2B08FEA32E969FFC009DD0CF /* Explore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FEA22E969FFC009DD0CF /* Explore */; };
+		2B08FEA52E969FFC009DD0CF /* Model in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FEA42E969FFC009DD0CF /* Model */; };
+		2B08FEA72E969FFC009DD0CF /* Repository in Frameworks */ = {isa = PBXBuildFile; productRef = 2B08FEA62E969FFC009DD0CF /* Repository */; };
+		2B1617602E957C6600E14720 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16175F2E957C6600E14720 /* APIClient */; };
+		2B1617642E957C6E00E14720 /* CoreUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2B1617632E957C6E00E14720 /* CoreUI */; };
+		2B1617662E957C7100E14720 /* CoreUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 2B1617652E957C7100E14720 /* CoreUtils */; };
+		2B1617682E957C7500E14720 /* Dashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 2B1617672E957C7500E14720 /* Dashboard */; };
+		2B16176A2E957C7900E14720 /* Explore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B1617692E957C7900E14720 /* Explore */; };
+		2B16176C2E957C7E00E14720 /* Model in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16176B2E957C7E00E14720 /* Model */; };
+		2B16176E2E957C8200E14720 /* Repository in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16176D2E957C8200E14720 /* Repository */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B3E25DF2E948C6E005B4C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3E25BD2E948C6C005B4C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3E25C42E948C6C005B4C03;
+			remoteInfo = "NASA-APOD";
+		};
+		2B3E25E92E948C6F005B4C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3E25BD2E948C6C005B4C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3E25C42E948C6C005B4C03;
+			remoteInfo = "NASA-APOD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B3E25C52E948C6C005B4C03 /* NASA-APOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA-APOD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3E25DE2E948C6E005B4C03 /* NASA-APODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA-APODTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3E25E82E948C6F005B4C03 /* NASA-APODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA-APODUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3E25FC2E948D67005B4C03 /* Dashboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Dashboard; sourceTree = "<group>"; };
+		2B3E26022E948F37005B4C03 /* Explore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Explore; sourceTree = "<group>"; };
+		2B3E26352E9492A3005B4C03 /* CoreUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreUI; sourceTree = "<group>"; };
+		2B800AA72E951C4D0054093E /* Model */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Model; sourceTree = "<group>"; };
+		2B800AA82E951DB70054093E /* APIClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = APIClient; sourceTree = "<group>"; };
+		2B800AA92E951F5A0054093E /* Repository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Repository; sourceTree = "<group>"; };
+		2BBE281D2E9514DA00CBC5DD /* CoreUtils */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreUtils; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B3E25F02E948C6F005B4C03 /* Exceptions for "NASA-APOD" folder in "NASA-APOD" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B3E25C42E948C6C005B4C03 /* NASA-APOD */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B3E25C72E948C6C005B4C03 /* NASA-APOD */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B3E25F02E948C6F005B4C03 /* Exceptions for "NASA-APOD" folder in "NASA-APOD" target */,
+			);
+			path = "NASA-APOD";
+			sourceTree = "<group>";
+		};
+		2B3E25E12E948C6F005B4C03 /* NASA-APODTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NASA-APODTests";
+			sourceTree = "<group>";
+		};
+		2B3E25EB2E948C6F005B4C03 /* NASA-APODUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NASA-APODUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3E25C22E948C6C005B4C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B16176A2E957C7900E14720 /* Explore in Frameworks */,
+				2B16176E2E957C8200E14720 /* Repository in Frameworks */,
+				2B1617602E957C6600E14720 /* APIClient in Frameworks */,
+				2B1617642E957C6E00E14720 /* CoreUI in Frameworks */,
+				2B16176C2E957C7E00E14720 /* Model in Frameworks */,
+				2B1617682E957C7500E14720 /* Dashboard in Frameworks */,
+				2B1617662E957C7100E14720 /* CoreUtils in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25DB2E948C6E005B4C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B08FEA52E969FFC009DD0CF /* Model in Frameworks */,
+				2B08FEA32E969FFC009DD0CF /* Explore in Frameworks */,
+				2B08FE9B2E969FFC009DD0CF /* APIClient in Frameworks */,
+				2B08FEA12E969FFC009DD0CF /* Dashboard in Frameworks */,
+				2B08FEA72E969FFC009DD0CF /* Repository in Frameworks */,
+				2B08FE9F2E969FFC009DD0CF /* CoreUtils in Frameworks */,
+				2B08FE9D2E969FFC009DD0CF /* CoreUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25E52E948C6F005B4C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3E25BC2E948C6C005B4C03 = {
+			isa = PBXGroup;
+			children = (
+				2B3E26012E948D67005B4C03 /* Dependencies */,
+				2B3E25C72E948C6C005B4C03 /* NASA-APOD */,
+				2B3E25E12E948C6F005B4C03 /* NASA-APODTests */,
+				2B3E25EB2E948C6F005B4C03 /* NASA-APODUITests */,
+				2B3E25C62E948C6C005B4C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3E25C62E948C6C005B4C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E25C52E948C6C005B4C03 /* NASA-APOD.app */,
+				2B3E25DE2E948C6E005B4C03 /* NASA-APODTests.xctest */,
+				2B3E25E82E948C6F005B4C03 /* NASA-APODUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3E25FD2E948D67005B4C03 /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E26022E948F37005B4C03 /* Explore */,
+				2B3E25FC2E948D67005B4C03 /* Dashboard */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+		2B3E25FF2E948D67005B4C03 /* CoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE281D2E9514DA00CBC5DD /* CoreUtils */,
+				2B3E26352E9492A3005B4C03 /* CoreUI */,
+			);
+			path = CoreModule;
+			sourceTree = "<group>";
+		};
+		2B3E26002E948D67005B4C03 /* DataModule */ = {
+			isa = PBXGroup;
+			children = (
+				2B800AA92E951F5A0054093E /* Repository */,
+				2B800AA82E951DB70054093E /* APIClient */,
+				2B800AA72E951C4D0054093E /* Model */,
+			);
+			path = DataModule;
+			sourceTree = "<group>";
+		};
+		2B3E26012E948D67005B4C03 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E25FD2E948D67005B4C03 /* AppModule */,
+				2B3E25FF2E948D67005B4C03 /* CoreModule */,
+				2B3E26002E948D67005B4C03 /* DataModule */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3E25C42E948C6C005B4C03 /* NASA-APOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3E25F12E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APOD" */;
+			buildPhases = (
+				2B3E25C12E948C6C005B4C03 /* Sources */,
+				2B3E25C22E948C6C005B4C03 /* Frameworks */,
+				2B3E25C32E948C6C005B4C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2B3E25C72E948C6C005B4C03 /* NASA-APOD */,
+			);
+			name = "NASA-APOD";
+			packageProductDependencies = (
+				2B16175F2E957C6600E14720 /* APIClient */,
+				2B1617612E957C6A00E14720 /* AppInjection */,
+				2B1617632E957C6E00E14720 /* CoreUI */,
+				2B1617652E957C7100E14720 /* CoreUtils */,
+				2B1617672E957C7500E14720 /* Dashboard */,
+				2B1617692E957C7900E14720 /* Explore */,
+				2B16176B2E957C7E00E14720 /* Model */,
+				2B16176D2E957C8200E14720 /* Repository */,
+			);
+			productName = "NASA-APOD";
+			productReference = 2B3E25C52E948C6C005B4C03 /* NASA-APOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B3E25DD2E948C6E005B4C03 /* NASA-APODTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3E25F62E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APODTests" */;
+			buildPhases = (
+				2B3E25DA2E948C6E005B4C03 /* Sources */,
+				2B3E25DB2E948C6E005B4C03 /* Frameworks */,
+				2B3E25DC2E948C6E005B4C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3E25E02E948C6E005B4C03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B3E25E12E948C6F005B4C03 /* NASA-APODTests */,
+			);
+			name = "NASA-APODTests";
+			packageProductDependencies = (
+				2B08FE9A2E969FFC009DD0CF /* APIClient */,
+				2B08FE9C2E969FFC009DD0CF /* CoreUI */,
+				2B08FE9E2E969FFC009DD0CF /* CoreUtils */,
+				2B08FEA02E969FFC009DD0CF /* Dashboard */,
+				2B08FEA22E969FFC009DD0CF /* Explore */,
+				2B08FEA42E969FFC009DD0CF /* Model */,
+				2B08FEA62E969FFC009DD0CF /* Repository */,
+			);
+			productName = "NASA-APODTests";
+			productReference = 2B3E25DE2E948C6E005B4C03 /* NASA-APODTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B3E25E72E948C6F005B4C03 /* NASA-APODUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3E25F92E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APODUITests" */;
+			buildPhases = (
+				2B3E25E42E948C6F005B4C03 /* Sources */,
+				2B3E25E52E948C6F005B4C03 /* Frameworks */,
+				2B3E25E62E948C6F005B4C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3E25EA2E948C6F005B4C03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B3E25EB2E948C6F005B4C03 /* NASA-APODUITests */,
+			);
+			name = "NASA-APODUITests";
+			packageProductDependencies = (
+			);
+			productName = "NASA-APODUITests";
+			productReference = 2B3E25E82E948C6F005B4C03 /* NASA-APODUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3E25BD2E948C6C005B4C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2B3E25C42E948C6C005B4C03 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2B3E25DD2E948C6E005B4C03 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2B3E25C42E948C6C005B4C03;
+					};
+					2B3E25E72E948C6F005B4C03 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2B3E25C42E948C6C005B4C03;
+					};
+				};
+			};
+			buildConfigurationList = 2B3E25C02E948C6C005B4C03 /* Build configuration list for PBXProject "NASA-APOD" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B3E25BC2E948C6C005B4C03;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2B3E25C62E948C6C005B4C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3E25C42E948C6C005B4C03 /* NASA-APOD */,
+				2B3E25DD2E948C6E005B4C03 /* NASA-APODTests */,
+				2B3E25E72E948C6F005B4C03 /* NASA-APODUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3E25C32E948C6C005B4C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25DC2E948C6E005B4C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25E62E948C6F005B4C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3E25C12E948C6C005B4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25DA2E948C6E005B4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3E25E42E948C6F005B4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3E25E02E948C6E005B4C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3E25C42E948C6C005B4C03 /* NASA-APOD */;
+			targetProxy = 2B3E25DF2E948C6E005B4C03 /* PBXContainerItemProxy */;
+		};
+		2B3E25EA2E948C6F005B4C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3E25C42E948C6C005B4C03 /* NASA-APOD */;
+			targetProxy = 2B3E25E92E948C6F005B4C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B3E25F22E948C6F005B4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NASA-APOD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3E25F32E948C6F005B4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NASA-APOD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B3E25F42E948C6F005B4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B3E25F52E948C6F005B4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3E25F72E948C6F005B4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APODTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA-APOD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASA-APOD";
+			};
+			name = Debug;
+		};
+		2B3E25F82E948C6F005B4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APODTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA-APOD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASA-APOD";
+			};
+			name = Release;
+		};
+		2B3E25FA2E948C6F005B4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APODUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NASA-APOD";
+			};
+			name = Debug;
+		};
+		2B3E25FB2E948C6F005B4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.NASA-APODUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NASA-APOD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3E25C02E948C6C005B4C03 /* Build configuration list for PBXProject "NASA-APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3E25F42E948C6F005B4C03 /* Debug */,
+				2B3E25F52E948C6F005B4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3E25F12E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3E25F22E948C6F005B4C03 /* Debug */,
+				2B3E25F32E948C6F005B4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3E25F62E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APODTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3E25F72E948C6F005B4C03 /* Debug */,
+				2B3E25F82E948C6F005B4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3E25F92E948C6F005B4C03 /* Build configuration list for PBXNativeTarget "NASA-APODUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3E25FA2E948C6F005B4C03 /* Debug */,
+				2B3E25FB2E948C6F005B4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B08FE9A2E969FFC009DD0CF /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIClient;
+		};
+		2B08FE9C2E969FFC009DD0CF /* CoreUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUI;
+		};
+		2B08FE9E2E969FFC009DD0CF /* CoreUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUtils;
+		};
+		2B08FEA02E969FFC009DD0CF /* Dashboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Dashboard;
+		};
+		2B08FEA22E969FFC009DD0CF /* Explore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Explore;
+		};
+		2B08FEA42E969FFC009DD0CF /* Model */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model;
+		};
+		2B08FEA62E969FFC009DD0CF /* Repository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repository;
+		};
+		2B16175F2E957C6600E14720 /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIClient;
+		};
+		2B1617612E957C6A00E14720 /* AppInjection */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppInjection;
+		};
+		2B1617632E957C6E00E14720 /* CoreUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUI;
+		};
+		2B1617652E957C7100E14720 /* CoreUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUtils;
+		};
+		2B1617672E957C7500E14720 /* Dashboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Dashboard;
+		};
+		2B1617692E957C7900E14720 /* Explore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Explore;
+		};
+		2B16176B2E957C7E00E14720 /* Model */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model;
+		};
+		2B16176D2E957C8200E14720 /* Repository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repository;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B3E25BD2E948C6C005B4C03 /* Project object */;
+}
