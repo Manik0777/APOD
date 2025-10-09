@@ -179,8 +179,8 @@ public final class DashboardViewController: UIViewController {
     private func showToast(message: String, duration: TimeInterval = 3.0) {
         let banner = FallbackBanner(
             message: message,
-            backgroundColor: .orange, // Optional: customize for toast
-            alignment: .bottom       // Optional: use .top if preferred
+            backgroundColor: .orange,
+            alignment: .bottom       
         )
 
         let host = UIHostingController(rootView: banner)
