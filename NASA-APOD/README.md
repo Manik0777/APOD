@@ -62,15 +62,10 @@ NASA-APOD/
 
 Running Tests
 ==============
-
 - Tests are written using XCTest and use an in-memory Core Data stack to avoid disk writes. To run tests:
 - Open the project in Xcode
 - Select the test target
 - Press ⌘U to run all tests
-
-API Key
-========
-- NASA provides a demo API key (DEMO_KEY) for public use. For production, you can register for your own key at api.nasa.gov.
 
 API Key
 ========
