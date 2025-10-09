@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  NASA-APOD
+
+  Created by Manik on 09/10/2025.
+  
+*/
+
+"main.tabbar.screen.tabbar.item1.title" = "Today";
+"main.tabbar.screen.tabbar.item2.title" = "Explore";
+
+"main.tabbar.screen.tabbar.item1.image.name" = "sun.max";
+"main.tabbar.screen.tabbar.item2.image.name" = "calendar";
+

@@ -19,11 +19,18 @@ public protocol APODRepository: Sendable {
 }
 
 public actor DefaultAPODRepository: APODRepository {
-    private let api: APODAPI
+//    private let api: APODAPI
+    private let api: APODAPIProtocol
     private let coreDataStack: CoreDataStack
     private let imageCache: ImageCache
 
-    public init(api: APODAPI, coreDataStack: CoreDataStack, imageCache: ImageCache? = nil) {
+//    public init(api: APODAPI, coreDataStack: CoreDataStack, imageCache: ImageCache? = nil) {
+//        self.api = api
+//        self.coreDataStack = coreDataStack
+//        self.imageCache = imageCache ?? ImageCache.shared
+//    }
+
+    public init(api: APODAPIProtocol, coreDataStack: CoreDataStack, imageCache: ImageCache? = nil) {
         self.api = api
         self.coreDataStack = coreDataStack
         self.imageCache = imageCache ?? ImageCache.shared
@@ -53,49 +60,12 @@ public actor DefaultAPODRepository: APODRepository {
         }
         return nil
     }
-/*
-    private func saveAPOD(_ apod: APOD) async {
-        await coreDataStack.container.performBackgroundTask { ctx in
-            do {
-                let fr = NSFetchRequest<NSFetchRequestResult>(entityName: "CachedAPOD")
-                try? ctx.execute(NSBatchDeleteRequest(fetchRequest: fr))
-                guard let entity = NSEntityDescription.entity(forEntityName: "CachedAPOD", in: ctx) else { return }
-                let obj = NSManagedObject(entity: entity, insertInto: ctx)
-                obj.setValue(apod.date, forKey: "date")
-                obj.setValue(apod.title, forKey: "title")
-                obj.setValue(apod.explanation, forKey: "explanation")
-                obj.setValue(apod.mediaType, forKey: "mediaType")
-                obj.setValue(apod.url?.absoluteString, forKey: "url")
-                obj.setValue(apod.hdurl?.absoluteString, forKey: "hdurl")
-                try ctx.save()
-            } catch {
-                print("CoreData save error: \(error)")
-            }
-        }
-    }
 
-    private func loadCachedAPOD(for date: Date?) async -> APOD? {
-        let ctx = coreDataStack.context
-        let fr: NSFetchRequest<NSManagedObject> = NSFetchRequest(entityName: "CachedAPOD")
-        fr.fetchLimit = 1
-        if let result = try? ctx.fetch(fr).first {
-            let date = result.value(forKey: "date") as? String ?? ""
-            let title = result.value(forKey: "title") as? String ?? ""
-            let explanation = result.value(forKey: "explanation") as? String ?? ""
-            let mediaType = result.value(forKey: "mediaType") as? String ?? "image"
-            let url = (result.value(forKey: "url") as? String).flatMap(URL.init)
-            let hdurl = (result.value(forKey: "hdurl") as? String).flatMap(URL.init)
-            return APOD(date: date, title: title, explanation: explanation,
-                        mediaType: mediaType, url: url, hdurl: hdurl, copyright: nil)
-        }
-        return nil
-    }
-*/
     private func saveAPOD(_ apod: APOD) async {
         await coreDataStack.container.performBackgroundTask { ctx in
             do {
                 let fr = NSFetchRequest<NSFetchRequestResult>(entityName: "CachedAPOD")
-                try? ctx.execute(NSBatchDeleteRequest(fetchRequest: fr))
+                try ctx.execute(NSBatchDeleteRequest(fetchRequest: fr))
                 guard let entity = NSEntityDescription.entity(forEntityName: "CachedAPOD", in: ctx) else { return }
 
                 let obj = NSManagedObject(entity: entity, insertInto: ctx)

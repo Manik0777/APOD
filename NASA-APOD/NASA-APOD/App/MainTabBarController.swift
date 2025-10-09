@@ -20,13 +20,13 @@ public final class MainTabBarCoordinator {
 
         let dashVM = DashboardViewModel(repository: di.repository)
         let dashVC = DashboardViewController(viewModel: dashVM)
-        dashVC.tabBarItem = UITabBarItem(title: "Today", image: UIImage(systemName: "sun.max"), tag: 0)
+        dashVC.tabBarItem = UITabBarItem(title: "main.tabbar.screen.tabbar.item1.title".localized(bundle: Bundle.main), image: UIImage(systemName: "main.tabbar.screen.tabbar.item1.image.name".localized(bundle: Bundle.main)), tag: 0)
         let dashNav = UINavigationController(rootViewController: dashVC)
 
         let exploreVM = ExploreViewModel(repository: di.repository)
         let exploreView = ExploreView(viewModel: exploreVM)
         let exploreVC = UIHostingController(rootView: exploreView)
-        exploreVC.tabBarItem = UITabBarItem(title: "Explore", image: UIImage(systemName: "calendar"), tag: 1)
+        exploreVC.tabBarItem = UITabBarItem(title: "main.tabbar.screen.tabbar.item2.title".localized(bundle: Bundle.main), image: UIImage(systemName: "main.tabbar.screen.tabbar.item2.image.name".localized(bundle: Bundle.main)), tag: 1)
 
         tabBar.viewControllers = [dashNav, exploreVC]
         return tabBar

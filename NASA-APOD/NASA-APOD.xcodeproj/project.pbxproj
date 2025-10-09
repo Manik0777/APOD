@@ -51,6 +51,7 @@
 		2B800AA82E951DB70054093E /* APIClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = APIClient; sourceTree = "<group>"; };
 		2B800AA92E951F5A0054093E /* Repository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Repository; sourceTree = "<group>"; };
 		2BBE281D2E9514DA00CBC5DD /* CoreUtils */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreUtils; sourceTree = "<group>"; };
+		2BF35B532E97C9B900A67845 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -131,6 +132,7 @@
 				2B3E25E12E948C6F005B4C03 /* NASA-APODTests */,
 				2B3E25EB2E948C6F005B4C03 /* NASA-APODUITests */,
 				2B3E25C62E948C6C005B4C03 /* Products */,
+				2BF35B532E97C9B900A67845 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

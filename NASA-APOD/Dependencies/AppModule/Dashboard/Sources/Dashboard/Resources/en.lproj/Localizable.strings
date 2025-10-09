@@ -11,3 +11,5 @@
 "dashboard.screen.api.or.connection.failure.error.message" = "Unable to load NASA image. Please check your connection or try again later.";
 "dashboard.screen.content.section.title" = "Cached APOD";
 "dashboard.screen.content.section.unsupported.media.type.error.message" = "Unsupported media type.";
+
+"dashboard.screen.show.toast.message" = "Fetching today's APOD...";

@@ -63,7 +63,7 @@ public final class DashboardViewController: UIViewController {
             await MainActor.run {
                 updateUI()
                 scrollView.refreshControl?.endRefreshing()
-                showToast(message: "Fetching today's APOD...")
+                showToast(message: "dashboard.screen.show.toast.message".localized(bundle: Bundle.module))
             }
         }
     }
