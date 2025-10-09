@@ -71,7 +71,3 @@ Running Tests
 API Key
 ========
 - NASA provides a demo API key (DEMO_KEY) for public use. For production, you can register for your own key at api.nasa.gov.
-
-API Key
-========
-- NASA provides a demo API key (DEMO_KEY) for public use. For production, you can register for your own key at api.nasa.gov.
