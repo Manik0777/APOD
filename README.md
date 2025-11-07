@@ -52,13 +52,16 @@ Project Structure
 ==================
 
 Code
+
 NASA-APOD/
-├── Model/           # Data models (APOD, media types)
-├── Repository/      # Core Data logic, APODRepository implementation
-├── APIClient/       # API calls to NASA
-├── CoreUtils/       # Shared utilities (formatters, constants)
-├── UI/              # SwiftUI, UIKit views and view models
-├── Tests/           # Unit tests with mocks and in-memory Core Data
+
+- Model/           # Data models (APOD, media types)
+
+- Repository/      # Core Data logic, APODRepository implementation
+- APIClient/       # API calls to NASA
+- CoreUtils/       # Shared utilities (formatters, constants)
+- UI/              # SwiftUI, UIKit views and view models
+- Tests/           # Unit tests with mocks and in-memory Core Data
 
 Running Tests
 ==============
